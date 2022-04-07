@@ -1,36 +1,25 @@
-# ds-project-template
-
-Template for creating ds simple projects
-
-## Requirements
+# Exploratory Data Analysis - King County House Prices
+### Overview
+With this project you can do EDA on a dataset that includes real estate data from King County / US. We have created an imaginary person (Mr. Henson) and based on facts we will try to analyze the data to his needs. You will find the facts in the Jupyter Notebook
+### Requirements
 
 - pyenv
 - python==3.9.8
+- pandas
+- numpy
+- plotly
+- geojson
+### Setup
+Once you have downloaded the files to your machine you will have to open the terminal and direct to the folder where you have saved the files. You can do that with the following command:
 
-## Setup
+'cd pathname' 
 
-One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of... 
+Next you need to install the required packages for this project. Please enter the following command:
 
-* setting the python version locally to 3.9.8
-* creating a virtual environment using the `venv` module
-* activating your newly created environment 
-* upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
-* installing the required packages via `pip`
+'pip install -r requirements.txt'
 
-At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
+Additionally you have to insert two data sets to the folder 'data' within this project. You do not have to do this in the terminal. You can simply add the files within the file manager/explorer. 
 
-```bash
-pip freeze > requirements.txt
-```
+Please find the two files here:
 
-*Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
-
-### Unit testing (Optional)
-
-If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
-
-```bash
-pytest
-```
-
-This command will execute all the functions in your project that start with the word **test**.
+### Enjoy running the EDA 
