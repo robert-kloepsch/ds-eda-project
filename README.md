@@ -22,4 +22,10 @@ Additionally you have to insert two data sets to the folder 'data' within this p
 
 Please find the two files here:
 
+Zip codes geojson file
+https://easyupload.io/sx9frf
+
+King County housing market
+https://easyupload.io/8un265
+
 ### Enjoy running the EDA 
