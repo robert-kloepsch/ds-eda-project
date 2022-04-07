@@ -28,4 +28,9 @@ https://easyupload.io/sx9frf
 King County housing market
 https://easyupload.io/8un265
 
+### Folders
+
+- data: folder to input dataset and geo json file
+- images: contains images to present project on Github
+
 ### Enjoy running the EDA 
